@@ -13,7 +13,7 @@ const HomeScreen = () => {
     return (
         <React.Fragment>
             <Header />
-            <div className="container mt-5">
+            <div className="container-fluid mt-5">
                 <div className="row">
                     {
                         all.map((item, index) => (
