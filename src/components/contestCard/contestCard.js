@@ -4,7 +4,7 @@ import {getPlatformLogoUrl} from "../../utils/getPlatformLogo";
 const ContestCard = (props) => {
     const {title, platform, startTime, endTime, date, link} = props;
     return (
-        <div className={'col-lg-4 col-md-6 col-12'}>
+        <div data-aos="fade-up" className={'col-lg-4 col-md-6 col-12'}>
             <div className={'contestCard'}>
                 <div className={'imageWrapper'}>
                     <img src={getPlatformLogoUrl(platform).default} alt=""/>

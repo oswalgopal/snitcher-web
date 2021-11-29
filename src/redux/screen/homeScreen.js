@@ -18,6 +18,7 @@ const HomeScreen = () => {
                     {
                         all.map((item, index) => (
                             <ContestCard
+                                key={index}
                                 title={item.title}
                                 platform={item.platform}
                                 startTime={item.start_time}
