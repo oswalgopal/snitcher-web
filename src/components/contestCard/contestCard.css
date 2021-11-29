@@ -1,15 +1,19 @@
 .contestCard{
-    border: 1px solid black;
     display: flex;
     align-items: center;
     flex-direction: row;
-    border-radius: 10px;
-    height: 150px;
+    /*border-radius: 10px;*/
+    width: 500px;
+    height: 200px;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px auto;
+    background: rgb(31,39,70);
+    border: 10px solid white;
+    cursor: pointer;
 }
 .contestCard .imageWrapper {
-    background-color: #F2F2F2;
+    /*background-color: #F2F2F2;*/
+    background-color: rgba(242, 242, 242, 0.9);
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -21,11 +25,13 @@
     height: 50px;
 }
 .contestCard p {
+    color: rgba(255, 255, 255);
     font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .contestCard .timeWrapper {
+    color: rgba(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
