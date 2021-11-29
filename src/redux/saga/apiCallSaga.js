@@ -49,10 +49,10 @@ export function* getContestApi() {
     if (response.status === 200) {
       console.log(response.data);
       let all = [];
+      all = all.concat(response.data.hackerearth);
       all = all.concat(response.data.codechef);
       all = all.concat(response.data.atcoder);
       all = all.concat(response.data.codeforces);
-      all = all.concat(response.data.hackerearth);
       all.sort(function(a, b) {
         const d1 = new Date(a.date);
         const d2 = new Date(b.date);

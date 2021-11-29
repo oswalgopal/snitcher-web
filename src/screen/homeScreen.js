@@ -6,6 +6,7 @@ import WelcomeSection from "../components/welcomeSection/welcomeSection";
 // import SearchBar from "../components/searchBar/SearchBar";
 import FooterComponent from "../components/footer/FooterComponent";
 import './homeScreen.css';
+import HeadingText from "../components/headingText/headingText";
 
 const HomeScreen = () => {
     const dispatch = useDispatch();
@@ -18,7 +19,8 @@ const HomeScreen = () => {
             {/*<Header />*/}
             <WelcomeSection/>
             <section id={"home"}>
-                <div className="container-fluid mt-5">
+                <div className="homeContainer">
+                    <HeadingText text={"Upcoming Coding Contest"}/>
                     {/*<SearchBar />*/}
                     <div className="row">
                         {

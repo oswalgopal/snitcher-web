@@ -4,7 +4,7 @@ import {getPlatformLogoUrl} from "../../utils/getPlatformLogo";
 const ContestCard = (props) => {
     const {title, platform, startTime, endTime, date, link} = props;
     return (
-        <div data-aos="fade-up" className={'col-lg-6 col-md-12 col-12'}>
+        <div data-aos="zoom-in-up" className={'col-lg-6 col-md-12 col-12'}>
             <div className={'contestCard'} onClick={() => {
                 window.open(link, '_blank')
             }}>
