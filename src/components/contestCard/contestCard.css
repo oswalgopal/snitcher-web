@@ -38,3 +38,9 @@
 .contestCard span {
     font-size: 12px;
 }
+.live_text {
+    color: rgba(242, 242, 242, 0.9);
+    background: rgba(255, 0, 0, 0.7);
+    padding: 2px 20px;
+    border-radius: 5px;
+}

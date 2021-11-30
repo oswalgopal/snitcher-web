@@ -1,6 +1,7 @@
 import React from 'react';
 import './contestCard.css';
 import {getPlatformLogoUrl} from "../../utils/getPlatformLogo";
+import {platformName} from "../../utils/platformNames";
 const ContestCard = (props) => {
     const {title, platform, startTime, endTime, date, link} = props;
     return (
@@ -15,7 +16,22 @@ const ContestCard = (props) => {
                     <p>{title}</p>
                     <span className={'timeWrapper'}>
                         <span>{date}</span>
-                        <span>{startTime} {endTime ? '-': null} {endTime}</span>
+                        {
+                            date === "OnGoing" ? (
+                                <span className={"live_text"}>Live</span>
+                            ) : (
+                                <React.Fragment>
+                                    {
+                                        platform === platformName.codeChef ? (
+                                            <span>{startTime} {endTime ? '-': null} {endTime}</span>
+                                        ) : (
+                                            <span>{new Date(startTime).toLocaleTimeString()} {endTime ? '-': null} {new Date(endTime).toLocaleTimeString()}</span>
+                                        )
+                                    }
+                                </React.Fragment>
+                            )
+                        }
+
                     </span>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import WelcomeSection from "../components/welcomeSection/welcomeSection";
 import FooterComponent from "../components/footer/FooterComponent";
 import './homeScreen.css';
 import HeadingText from "../components/headingText/headingText";
+import $ from 'jquery';
 
 const HomeScreen = () => {
     const dispatch = useDispatch();
@@ -14,6 +15,33 @@ const HomeScreen = () => {
     React.useEffect(() => {
         dispatch(getContestApiAction());
     }, []);
+    // $(document).ready(function() {
+    //     // declare variable
+    //     var scrollTop = $(".scrollTop");
+    //
+    //     $(window).scroll(function () {
+    //         // declare variable
+    //         var topPos = $(this).scrollTop();
+    //
+    //         // if user scrolls down - show scroll to top button
+    //         if (topPos > 100) {
+    //             $(scrollTop).css("opacity", "1");
+    //             $('#myheader').attr('style', 'background-color: #00091b !important; z-index: 1000000');
+    //         } else {
+    //             $(scrollTop).css("opacity", "0");
+    //             $('#myheader').attr('style', 'background-color: transparent !important; z-index: 1000000');
+    //         }
+    //
+    //     }); // scroll END
+    //
+    //     //Click event to scroll to top
+    //     $(scrollTop).on('click', function () {
+    //         $('html, body').animate({
+    //             scrollTop: 0
+    //         }, 800);
+    //         return false;
+    //     });
+    // });
     return (
         <React.Fragment>
             {/*<Header />*/}
@@ -51,6 +79,9 @@ const HomeScreen = () => {
                         }
                     </div>
                 </div>
+                {/*<div className={"scrollTop scrollToTop"}>*/}
+                {/*    <i className="fas fa-chevron-up"></i>*/}
+                {/*</div>*/}
             </section>
             <FooterComponent/>
         </React.Fragment>
