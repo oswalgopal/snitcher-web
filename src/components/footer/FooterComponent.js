@@ -3,30 +3,15 @@ import './footerComponentCss.css';
 import $ from 'jquery';
 
 const FooterComponent = () => {
-    // $( document ).ready( function(  ) {
-        $('#bootstrapForm').submit(function (event) {
-            event.preventDefault()
-            var extraData = {};
-            $('#bootstrapForm').ajaxSubmit({
-                data: extraData,
-                dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
-                error: function () {
-                    // Submit of form should be successful but JSONP callback will fail because Google Forms
-                    // does not support it, so this is handled as a failure.
-                    alert('Form Submitted. Thanks.')
-                    // You can also redirect the user to a custom thank-you page:
-                    // window.location = 'http://www.mydomain.com/thankyoupage.html'
-                }
-            })
-        })
-    // });
     return (
         <footer>
             <h3 className={"footerHeading"}>
                 get it
             </h3>
             <div>
-                <button>View on Github</button>
+                <button onClick={() => {
+                    window.open("https://github.com/oswalgopal/snitcher-web", "_blank")
+                }}>View on Github</button>
             </div>
             <hr/>
             <h3 className={"footerHeading"}>
@@ -74,7 +59,7 @@ const FooterComponent = () => {
                     <input type="hidden" name="fvv" value="1" />
                     <input type="hidden" name="fbzx" value="-1812538668898019901"/>
                     <input type="hidden" name="pageHistory" value="0"/>
-                    <input className="btn btn-primary" type="submit" value="Submit"/>
+                    <input className="btn btn-primary" type="submit" value="submit"/>
             </form>
             <hr/>
             <h3 className={"footerHeading"}>

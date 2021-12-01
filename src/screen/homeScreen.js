@@ -53,7 +53,7 @@ const HomeScreen = () => {
                     <div className="row">
                         {
                             all.map((item, index) => (
-                                <React.Fragment>
+                                <React.Fragment key={index}>
                                     {
                                         index % 2 !== 0 && (
                                             <div data-aos="fade-up" className={'col-lg-6 col-md-12 col-12'}/>
