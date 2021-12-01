@@ -3,10 +3,10 @@ import './footerComponentCss.css';
 import $ from 'jquery';
 
 const FooterComponent = () => {
-    $( document ).ready( function(  ) {
+    // $( document ).ready( function(  ) {
         $('#bootstrapForm').submit(function (event) {
             event.preventDefault()
-            var extraData = {}
+            var extraData = {};
             $('#bootstrapForm').ajaxSubmit({
                 data: extraData,
                 dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
@@ -19,7 +19,7 @@ const FooterComponent = () => {
                 }
             })
         })
-    });
+    // });
     return (
         <footer>
             <h3 className={"footerHeading"}>
@@ -43,7 +43,7 @@ const FooterComponent = () => {
                     {/*</h2>*/}
                 </fieldset>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
                         <fieldset>
                             <legend htmlFor="433727979"></legend>
                             <div className="form-group">
@@ -51,7 +51,7 @@ const FooterComponent = () => {
                             </div>
                         </fieldset>
                     </div>
-                    <div className="col-6">
+                    <div className="col-lg-6 col-12">
                         <fieldset>
                             <legend htmlFor="583216171"></legend>
                             <div className="form-group">
@@ -83,7 +83,7 @@ const FooterComponent = () => {
             <p className="text">
                 Gopal Oswal
                 <span> (Full stack Development) </span>
-                <a href="http://oswalgopal.github.io/">oswalgopal.github.io</a>
+                {/*<a href="http://oswalgopal.github.io/">oswalgopal.github.io</a>*/}
             </p>
             <p className="text">
                 Janvi Chouhan

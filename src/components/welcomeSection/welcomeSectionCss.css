@@ -84,3 +84,24 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .welcomeSection h1 {
+        font-size: 100px;
+    }
+    .welcomeSection h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .welcomeSection h1 {
+        font-size: 50px;
+    }
+    .welcomeSection h2 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

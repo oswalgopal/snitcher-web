@@ -11,7 +11,7 @@ const WelcomeSection = () => {
                     scrollTop: $('#home').offset().top
                 }, 1000);
             }}>
-                <i className="fas fa-chevron-down down-arrow"></i>
+                <i className="fas fa-chevron-down down-arrow"/>
             </div>
         </section>
     );

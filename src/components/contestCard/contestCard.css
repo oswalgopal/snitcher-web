@@ -44,3 +44,24 @@
     padding: 2px 20px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+   .contestCard {
+       width: 400px;
+   }
+}
+@media screen and (max-width: 400px) {
+    .contestCard {
+        width: 300px;
+    }
+    .contestCard .imageWrapper img{
+        width: 30px;
+        height: 30px;
+    }
+    .contestCard p {
+        font-size: 18px;
+    }
+    .contestCard span {
+        font-size: 10px;
+    }
+}
