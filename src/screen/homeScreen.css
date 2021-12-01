@@ -15,6 +15,14 @@
     align-items: center;
     color: white;
 }
+.loader {
+    font-size: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    color: #fff;
+}
 
 @media screen and (max-width: 600px) {
     #home .homeContainer {

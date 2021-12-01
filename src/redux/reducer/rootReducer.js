@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux';
-import {platformReducer} from '../reducer/platformReducer';
-import {contestReducer} from '../reducer/contestReducer';
+import {platformReducer} from './platformReducer';
+import {contestReducer} from './contestReducer';
+import {loaderReducer} from './loaderReducer';
 
 const rootReducer = combineReducers({
   platformReducer,
   contestReducer,
+  loaderReducer,
 });
 
 export default rootReducer;

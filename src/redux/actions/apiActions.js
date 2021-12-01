@@ -33,3 +33,12 @@ export const setContestData = data => {
     },
   };
 };
+
+export const setLoader = data => {
+  return {
+    type: apiConstants.SET_LOADER,
+    payload: {
+      data
+    }
+  }
+}

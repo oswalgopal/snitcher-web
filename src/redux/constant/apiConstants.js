@@ -3,4 +3,5 @@ export const apiConstants = {
   SET_PLATFORMS: 'SET_PLATFORMS',
   GET_CONTEST: 'GET_CONTEST',
   SET_CONTEST: 'SET_CONTEST',
+  SET_LOADER: 'SET_LOADER',
 }

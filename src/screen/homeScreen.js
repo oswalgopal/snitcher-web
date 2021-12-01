@@ -7,11 +7,12 @@ import WelcomeSection from "../components/welcomeSection/welcomeSection";
 import FooterComponent from "../components/footer/FooterComponent";
 import './homeScreen.css';
 import HeadingText from "../components/headingText/headingText";
-import $ from 'jquery';
+// import $ from 'jquery';
 
 const HomeScreen = () => {
     const dispatch = useDispatch();
     const {all} = useSelector(state => state.contestReducer);
+    const {loading} = useSelector(state => state.loaderReducer);
     React.useEffect(() => {
         dispatch(getContestApiAction());
     }, []);
@@ -50,6 +51,13 @@ const HomeScreen = () => {
                 <div className="homeContainer">
                     <HeadingText text={"Upcoming Coding Contest"}/>
                     {/*<SearchBar />*/}
+                    {
+                        loading ? (
+                            <div className={"loader"}>
+                                <i className="fas fa-spinner fa-pulse"></i>
+                            </div>
+                        ) : null
+                    }
                     <div className="row">
                         {
                             all.map((item, index) => (

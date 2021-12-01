@@ -1,6 +1,5 @@
 import React from 'react';
 import './footerComponentCss.css';
-import $ from 'jquery';
 
 const FooterComponent = () => {
     return (
@@ -59,7 +58,7 @@ const FooterComponent = () => {
                     <input type="hidden" name="fvv" value="1" />
                     <input type="hidden" name="fbzx" value="-1812538668898019901"/>
                     <input type="hidden" name="pageHistory" value="0"/>
-                    <input className="btn btn-primary" type="submit" value="submit"/>
+                    <input className="btn btn-primary" type="submit" value="Submit"/>
             </form>
             <hr/>
             <h3 className={"footerHeading"}>
