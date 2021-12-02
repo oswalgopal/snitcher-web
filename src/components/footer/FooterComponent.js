@@ -70,7 +70,7 @@ const FooterComponent = () => {
                 {/*<a href="http://oswalgopal.github.io/">oswalgopal.github.io</a>*/}
             </p>
             <p className="text">
-                Janvi Chouhan
+                Janhvi Chauhan
                 <span>
                     (Frontend Development)
                 </span>
