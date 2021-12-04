@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/snitcher-web/static/css/main.423f8436.chunk.css",
+    "main.js": "/snitcher-web/static/js/main.76eb67af.chunk.js",
+    "main.js.map": "/snitcher-web/static/js/main.76eb67af.chunk.js.map",
+    "runtime-main.js": "/snitcher-web/static/js/runtime-main.ebe152bf.js",
+    "runtime-main.js.map": "/snitcher-web/static/js/runtime-main.ebe152bf.js.map",
+    "static/css/2.4659568d.chunk.css": "/snitcher-web/static/css/2.4659568d.chunk.css",
+    "static/js/2.762a037d.chunk.js": "/snitcher-web/static/js/2.762a037d.chunk.js",
+    "static/js/2.762a037d.chunk.js.map": "/snitcher-web/static/js/2.762a037d.chunk.js.map",
+    "static/js/3.cc32d006.chunk.js": "/snitcher-web/static/js/3.cc32d006.chunk.js",
+    "static/js/3.cc32d006.chunk.js.map": "/snitcher-web/static/js/3.cc32d006.chunk.js.map",
+    "index.html": "/snitcher-web/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/snitcher-web/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.423f8436.chunk.css.map": "/snitcher-web/static/css/main.423f8436.chunk.css.map",
+    "static/js/2.762a037d.chunk.js.LICENSE.txt": "/snitcher-web/static/js/2.762a037d.chunk.js.LICENSE.txt",
+    "static/media/atcoder.png": "/snitcher-web/static/media/atcoder.6bcc41cf.png",
+    "static/media/atcoder_small.png": "/snitcher-web/static/media/atcoder_small.aa62e41e.png",
+    "static/media/index.css": "/snitcher-web/static/media/bg image.73b222ec.png",
+    "static/media/codechef.png": "/snitcher-web/static/media/codechef.2dd7f461.png",
+    "static/media/codechef_small.png": "/snitcher-web/static/media/codechef_small.4ab9c891.png",
+    "static/media/codeforces.png": "/snitcher-web/static/media/codeforces.313c4e55.png",
+    "static/media/hackerearth_small.png": "/snitcher-web/static/media/hackerearth_small.1e6d5c80.png",
+    "static/media/hackerrank_small.png": "/snitcher-web/static/media/hackerrank_small.48c70562.png",
+    "static/media/leetcode.png": "/snitcher-web/static/media/leetcode.42e70bbd.png",
+    "static/media/leetcode_small.png": "/snitcher-web/static/media/leetcode_small.c79f333b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebe152bf.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.762a037d.chunk.js",
+    "static/css/main.423f8436.chunk.css",
+    "static/js/main.76eb67af.chunk.js"
+  ]
+}
