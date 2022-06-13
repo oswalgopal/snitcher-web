@@ -61,21 +61,21 @@ const FooterComponent = () => {
                     <input className="btn btn-primary" type="submit" value="Submit"/>
             </form>
             <hr/>
-            <h3 className={"footerHeading"}>
-                about developers
-            </h3>
-            <p className="text">
-                Gopal Oswal
-                <span> (Full stack Development) </span>
-                {/*<a href="http://oswalgopal.github.io/">oswalgopal.github.io</a>*/}
-            </p>
-            <p className="text">
-                Janhvi Chauhan
-                <span>
-                    (Frontend Development)
-                </span>
-            </p>
-            <hr/>
+            {/*<h3 className={"footerHeading"}>*/}
+            {/*    about developers*/}
+            {/*</h3>*/}
+            {/*<p className="text">*/}
+            {/*    Gopal Oswal*/}
+            {/*    <span> (Full stack Development) </span>*/}
+            {/*    /!*<a href="http://oswalgopal.github.io/">oswalgopal.github.io</a>*!/*/}
+            {/*</p>*/}
+            {/*<p className="text">*/}
+            {/*    Janhvi Chauhan*/}
+            {/*    <span>*/}
+            {/*        (Frontend Development)*/}
+            {/*    </span>*/}
+            {/*</p>*/}
+            {/*<hr/>*/}
         </footer>
 );
 };
